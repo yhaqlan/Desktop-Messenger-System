@@ -1,0 +1,16 @@
+{
+  "database_path": "data/desktop_messenger.sqlite3",
+  "attachment_directory": "data/attachments",
+  "lan": {
+    "host": "0.0.0.0",
+    "port": 8765
+  },
+  "relay": {
+    "host": "127.0.0.1",
+    "port": 9876
+  },
+  "ui": {
+    "theme": "dark",
+    "show_sync_indicator": true
+  }
+}

@@ -1,0 +1,29 @@
+* { font-family: "Segoe UI"; font-size: 14px; color: #E8ECF4; }
+QWidget { background: #0B1020; }
+#sidebar { background: #11182B; min-width: 220px; max-width: 220px; border-right: 1px solid #25304A; }
+#brandBadge { font-size: 26px; font-weight: 800; color: white; background: #6C5CE7; border-radius: 14px; padding: 14px; margin: 12px; }
+#brandTitle { font-size: 30px; font-weight: 800; color: #FFFFFF; margin: 28px 24px 2px 24px; }
+#brandSubtitle, #pageSubtitle, #sidebarIdentity { color: #93A1BC; }
+#brandSubtitle { margin: 0 24px 22px 24px; }
+#sidebarIdentity { padding: 0 18px 16px 18px; }
+#pageTitle { font-size: 26px; font-weight: 750; color: #FFFFFF; }
+#navigation { background: transparent; border: 0; padding: 8px; outline: none; }
+#navigation::item { padding: 13px 14px; margin: 3px 0; border-radius: 9px; color: #AFBAD0; }
+#navigation::item:hover { background: #1C2740; color: #FFFFFF; }
+#navigation::item:selected { background: #6C5CE7; color: #FFFFFF; }
+QPushButton { background: #6C5CE7; border: 0; border-radius: 9px; padding: 10px 16px; font-weight: 650; }
+QPushButton:hover { background: #7E70F0; }
+QPushButton:pressed { background: #5143C8; padding-top: 11px; }
+#logoutButton { background: #271A2A; color: #FF9AAA; margin: 10px; }
+#logoutButton:hover { background: #3B2030; }
+QLineEdit, QSpinBox { background: #11182B; border: 1px solid #2A3652; border-radius: 8px; padding: 9px; selection-background-color: #6C5CE7; }
+QLineEdit:focus, QSpinBox:focus { border-color: #8B80F5; }
+QGroupBox { border: 1px solid #28344F; border-radius: 12px; margin-top: 14px; padding: 18px; font-weight: 700; background: #0F1628; }
+QGroupBox::title { subcontrol-origin: margin; left: 14px; padding: 0 8px; color: #C7D1E7; }
+QTabWidget::pane { border: 1px solid #293652; border-radius: 12px; padding: 18px; background: #0F1628; }
+QTabBar::tab { background: #11182B; padding: 10px 18px; color: #93A1BC; }
+QTabBar::tab:selected { background: #6C5CE7; color: white; }
+#emptyState { color: #73819D; font-size: 16px; border: 1px dashed #2A3652; border-radius: 14px; padding: 36px; background: #0F1628; }
+#infoCallout { background: #13243C; color: #B9D8FF; border: 1px solid #244F7B; border-radius: 10px; padding: 12px; }
+#statusPillOnline { background: #12382C; border: 1px solid #2BB673; border-radius: 13px; }
+#statusPillOffline { background: #36232A; border: 1px solid #B85A70; border-radius: 13px; }
